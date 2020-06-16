@@ -6,7 +6,7 @@ $('a[class^="nav"]').click(function () {
     $(this).addClass('active');
 });
 
-// 
+// Menu portfolio 
 
 $('.activities li').click(function () {
     $('.activities li').removeClass('active');

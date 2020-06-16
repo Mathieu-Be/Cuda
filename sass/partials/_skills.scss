@@ -1,0 +1,54 @@
+#skills{
+    text-align: center;
+    margin: auto;
+    color: #3c4761;
+    h2{
+        text-transform: uppercase;
+        margin-top: 33px;
+    }
+    hr{
+        background-color: #dfe8ed;
+    }
+    article {
+        margin-bottom: 50px;
+        .progress-circle{
+            justify-content: center;
+            text-align: center;
+            margin: auto;
+            padding: auto;
+        }
+    }
+        
+    // Circle Progress bar
+    @import '../tools/progress_bar';
+    
+    .progress-circle{
+        border-color: #dfe8ed;
+        &.web-design{
+            .progress-barre,
+            .progress-sup50 {
+                border-color: #30bae7; 
+            }
+        }
+        &.code{
+            .progress-barre,
+            .progress-sup50 {
+                border-color: #d74680; 
+            }
+        }
+        &.graphic-design{
+            .progress-barre,
+            .progress-sup50 {
+                border-color: #15c7a8; 
+            }
+        }
+        &.UI-UX{
+            .progress-barre,
+            .progress-sup50 {
+                border-color: #eb7d4b; 
+            }
+        }
+    }
+}
+
+

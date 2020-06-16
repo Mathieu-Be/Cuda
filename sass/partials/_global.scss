@@ -1,0 +1,81 @@
+// All 
+*{
+    font-family: Titillium Web;
+    scroll-behavior: smooth;
+}
+
+// TITLES
+
+h1.title{
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2{
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 16px;
+}
+
+
+// GLOBAL CONTENT
+
+// HEADER SECTIONS 
+
+header{
+    text-align: center;
+    hr{
+        border: 0px;
+        margin: 1.3rem auto;
+        height:5px;
+        width:90px;
+    }
+    figure{
+        margin-bottom: 60px;
+    }
+}
+
+// CONTENT SECTIONS
+
+section{
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+.description{
+    font-size: 18px;
+    margin-bottom: 80px;
+    font-weight: 400;
+}
+.content{
+    margin-bottom: 0;
+}
+
+
+// Images 
+
+img{
+    max-width: 100%;
+}
+
+a{
+    cursor: pointer;
+}
+
+
+// Buttons
+
+a.btn {
+    margin-top: 40px;
+    padding: 20px 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    &:hover{
+        color:rgb(230, 227, 227)
+    }
+}

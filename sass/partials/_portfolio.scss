@@ -1,0 +1,39 @@
+#portfolio{
+    background-color: #ffdd99;
+    color: #393939;
+    hr{
+        background-color: #e5c37f;
+    }
+    .description{
+        margin-bottom: 40px;
+    }
+    .nav{
+        li{
+            cursor: pointer;
+            color: #393939;
+            text-transform: uppercase;
+            padding: 14px 23px;
+            border-radius: 7px;
+            margin:0 7px;
+            background-color: #ebc985;
+            &.active, &:hover{
+                background-color: white;
+            }
+        }
+    }
+    .desktop{
+        margin-bottom: 30px;
+        img{
+            margin-bottom: 30px;
+            margin-top: 65px;
+        }
+        h3{
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+    .btn{
+        background-color: #17c2a4;
+        border-bottom: 5px solid #14a58c;
+    }
+}

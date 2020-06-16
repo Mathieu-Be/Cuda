@@ -1,0 +1,36 @@
+#contacts{
+    background-color: #3c5499;
+    color: white;
+    hr{
+        background-color:#273a71;
+    }
+    .form-control{
+        padding: 22px;
+        background-color: #273a71;
+        border: 0;
+        &::-webkit-input-placeholder {
+            color: white !important;
+            font-size: 18px !important;
+            font-weight: 400 !important;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+            color: white !important;
+            font-size: 18px !important;
+            font-weight: 400 !important;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+            color: white !important;
+            font-size: 18px !important;
+            font-weight: 400 !important;
+        }
+        &:-ms-input-placeholder { 
+            color: white !important;
+            font-size: 18px !important;
+            font-weight: 400 !important;
+        }
+    }
+    .btn{
+        background-color: #30bae7;
+        border-bottom: 5px solid #299ec5;
+    }
+}

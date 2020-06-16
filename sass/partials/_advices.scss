@@ -1,0 +1,30 @@
+#advices{
+    background-color: #d74680;
+    color: white;
+    hr{
+        background-color: #b73c6d;
+    }
+    h2{
+        margin-bottom: 5px;
+    }
+    h3{
+        color: #ffdd99
+    }
+    img{
+        height: 90px;
+        width: 90px;
+        top:0px;
+        left:0px;
+        position:absolute;
+    }
+    .testimony{
+        margin-bottom: 100px;
+        .quote{
+            margin-left: 110px;
+            p{
+                margin-right: 30px;
+                font-style: italic;
+            }
+        }
+    }
+}

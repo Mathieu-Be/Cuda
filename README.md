@@ -1,4 +1,10 @@
-# Cuda
-Integration of a graphic model (HTML/CSS/Jquery) of the Cuda site (https://bit.ly/2N4XcRe).
-Find the graphic template in .psd and .pdf format in the /sources folder.
-Link to online version : https://mathieu-be-cuda.netlify.app/
+<p align="center">
+  <a href="https://mathieu-be-cuda.netlify.app/">
+    <img src="https://mathieu-be-cuda.netlify.app/img/cuda-black.svg" alt="Bootstrap logo" width="200" height="165">
+  </a>
+</p>
+
+## Cuda
+<p>Integration of a graphic model (HTML/CSS/Jquery) of Cuda site (https://bit.ly/2N4XcRe).</p>
+<p>Find the graphic template in .psd and .pdf format in the /sources folder.</p>
+<p>Link to online version : https://mathieu-be-cuda.netlify.app/</p>

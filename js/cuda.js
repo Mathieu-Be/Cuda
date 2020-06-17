@@ -1,7 +1,6 @@
 // Menus 
 $('a[class^="nav"]').click(function () {
     var $class = $(this).parents('ul').attr('class');
-    console.log('ul[class="' + $class + '"] a[class^="nav"]');
     $('ul[class="' + $class + '"] a[class^="nav"]').removeClass('active');
     $(this).addClass('active');
 });

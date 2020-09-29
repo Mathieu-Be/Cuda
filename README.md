@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://mathieu-be-cuda.netlify.app/">
+  <a href="https://mathieubesson-cuda.netlify.app/">
     <img src="https://mathieubesson-cuda.netlify.app/img/cuda-black.svg" alt="Cuda logo" width="200" height="165">
   </a>
 </p>
